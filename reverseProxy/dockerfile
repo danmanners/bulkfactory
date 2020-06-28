@@ -1,0 +1,5 @@
+FROM   nginx:alpine
+LABEL  Maintainer="Dan Manners"
+COPY   factoryDefaultNginx.conf /etc/nginx/nginx.conf
+EXPOSE 443
+EXPOSE 22
